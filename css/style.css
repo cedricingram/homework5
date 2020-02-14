@@ -244,6 +244,6 @@ header{
 }
 @media screen and (prefers-reduced-motion: reduce) {
   #logo {
-    scroll-behavior: auto; /* Removes scroll animation */
+    animation: none;
   }
 }
